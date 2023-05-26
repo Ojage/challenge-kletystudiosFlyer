@@ -1,0 +1,61 @@
+/* 
+@ Author: Salathiel Ojage */
+body {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: #160201;
+  color: white;
+  font-family: montserrat;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 6px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#logo-slogan {
+  font-weight: 300;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#content {
+  margin-top: 9rem;
+}
+#klety,
+#outstanding {
+  font-weight: 500;
+  line-height: 40px;
+  width: 20px;
+  font-size: 40px;
+  font-stretch: extra-expanded;
+}
+#outstanding {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-kerning: 12px;
+  line-height: 42px;
+  display: inline-block;
+  -webkit-transform: scale(2, 1);
+  -moz-transform: scale(2, 1);
+  -o-transform: scale(2, 1);
+  transform: scaleY(1.5);
+  font-weight: 800;
+}
+#studios {
+  color: white;
+}
+
+#content-left {
+  width: 24vw;
+}
+#content-left p {
+  color: #d3aba2;
+}
+.primary-color {
+  color: #eb583a;
+}
